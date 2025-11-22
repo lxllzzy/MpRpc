@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/home/muchen/item/MpRpc/src/include -I/home/muchen/item/MpRpc/example
 
-CXX_FLAGS = 
+CXX_FLAGS = -g
 

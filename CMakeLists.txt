@@ -1,8 +1,11 @@
 cmake_minimum_required(VERSION 3.0)
 project(MpRpc)
 
+# 生成debug版本，可以进行gdb调试
+set(CMAKE_BUILD_TYPE "Debug")
+
 set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
-set(LIBEARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)
+set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)
 
 include_directories(${PROJECT_SOURCE_DIR}/src/include)
 include_directories(${PROJECT_SOURCE_DIR}/example)
